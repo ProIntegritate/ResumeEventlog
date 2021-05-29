@@ -43,7 +43,7 @@ Module Program
                         Dim ptc As System.Diagnostics.ProcessThreadCollection
                         Dim pt As System.Diagnostics.ProcessThread
 
-                        ptc = p(0).Threads
+                        ptc = p(n).Threads
                         For o = 0 To ptc.Count - 1
                             pt = ptc(o)
 
