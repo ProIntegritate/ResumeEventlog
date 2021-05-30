@@ -8,4 +8,4 @@ Compiles as a Console application in Visual Studio 2019, should work with older 
 
 Usage: No parameters, just fire it up and it finds the process hosting eventlog (wevtsvc.dll), it enumerates it's threads and restores (resumes) them to working condition.
 
-<img src="ResumeEventlog.png">
+<img src="Resume_Eventlog.png">
